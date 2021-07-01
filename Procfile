@@ -1,1 +1,1 @@
-web: gunicorn funiture.wsgi --log-file -
+web: gunicorn mysite.wsgi --log-file -
