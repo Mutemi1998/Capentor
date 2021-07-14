@@ -40,6 +40,8 @@
 
 <body>
 
+
+  
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-between">
@@ -112,6 +114,10 @@
     </div>
   </header><!-- End Header -->
 
+  
+  
+  {% block body %}
+
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="container text-center text-md-left" data-aos="fade-up">
@@ -121,6 +127,7 @@
     </div>
   </section><!-- End Hero -->
 
+  
 
   <main id="main">
 
@@ -186,6 +193,7 @@
       </div>
     </section><!-- End Features Section -->
 
+  
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
@@ -562,6 +570,8 @@
 
   </main><!-- End #main -->
 
+  {% endblock %}
+
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
@@ -601,7 +611,7 @@
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <p>Subsrcibe to our Newsletter to get our weekly news about the products</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
