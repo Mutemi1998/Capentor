@@ -14,3 +14,12 @@ def AllProduct(request):
 
 def product(request):
     return render(request, 'product.html')
+
+def dinnerware(request):
+    return render(request, 'Home/dinnerware.html')
+
+def glassware(request):
+    return render(request, 'Home/glassware.html')
+
+def AllHome(request):
+    return render(request, 'Home/AllProduct.html')
